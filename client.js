@@ -1,4 +1,5 @@
 const net = require('net');
+const input = require(`./input.js`)
 
 
 ///connecting to the server
@@ -19,17 +20,6 @@ const connect = function(){
   conn.on(`connect`, () => {
     console.log(`Huzza!!! connection stablished!!!`);
     conn.write(`Name: Ed`);
-    // conn.write(`Move: up`);
-    // const right = conn.write(`Move: right`);
-    // setTimeout(() => {
-    //   conn.write(`Move: right`); 
-    // }, 50);
-    
-    // setInterval(() => {
-    //   conn.write(`Move: right`); 
-    // }, 100);
-
-    
   });
 
 

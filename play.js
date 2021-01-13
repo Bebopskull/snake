@@ -4,8 +4,8 @@ const { setupInput } = require(`./input.js`);
 ////play sequence
 ////iniciating sequence/////
 console.log(`connecting....`);
-connect();
-setupInput();
+let conn = connect();
+setupInput(conn);
 
 
 
