@@ -4,4 +4,5 @@ const { connect } = require('./client.js');
 ////iniciating sequence/////
 console.log(`connecting....`);
 connect();
+// connect(`Move: up`);
 
