@@ -19,7 +19,7 @@ const connect = function(){
   conn.on(`connect`, () => {
     console.log(`Huzza!!! connection stablished!!!`);
     conn.write(`Name: Ed`);
-    conn.write(`Move: up`);
+    // conn.write(`Move: up`);
     // const right = conn.write(`Move: right`);
     // setTimeout(() => {
     //   conn.write(`Move: right`); 
